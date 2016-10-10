@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "swizzleMethod"
   s.version      = "1.0.0"
-  s.summary      = "swizzleMethod.."
+  s.summary      = "swizzleMethod."
 
   s.description      = <<-DESC
      swizzle method implement,include instance method and class method.
