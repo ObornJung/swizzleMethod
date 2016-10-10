@@ -9,7 +9,7 @@ swizzle method include instance method and class method
 ```Objective-C
 //
 // swizzle two class method
-[[self class] sm_swizzleClassMethod:classSel1 withMethod:classSel1];
+[[self class] sm_swizzleClassMethod:classSel1 withMethod:classSel2];
 //
 // swizzle two instance method
 [[self class] sm_swizzleMethod:instanceSel1 withMethod:instanceSel2];
