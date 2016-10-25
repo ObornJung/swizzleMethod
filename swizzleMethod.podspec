@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "swizzleMethod"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "swizzleMethod."
 
   s.description      = <<-DESC
@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/ObornJung/swizzleMethod.git", :tag => s.version }
 
-  s.source_files  = "swizzleMethod/**/*.{h,m}"
-  s.public_header_files = 'swizzleMethod/**/*.h'
+  s.source_files  = "swizzleMethod/**/NSObject+*.{h,m}"
    
   s.frameworks  = "Foundation", "UIKit"
 
